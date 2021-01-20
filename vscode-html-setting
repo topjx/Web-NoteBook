@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 14,
+  "px2rem.isNeedNotes": false,
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  //js代码设置不自动换行
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  //设置不自动换行
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_line_length": 120,
+      "wrap_attributes": "auto",
+      "end_with_newline": false
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "px2rem.rootFontSize": 75,
+  "px-to-rem.px-per-rem": 75,
+}
