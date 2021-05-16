@@ -1,0 +1,62 @@
+#!/bin/sh
+
+export PATH="/usr/local/sbin:$PATH"
+
+#brew install node
+NODE_HOME=/usr/local/Cellar/node/12.4.0/bin
+export PATH=$PATH:$NODE_HOME
+
+#brew install ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+#Flutter
+export PUB_HOSTED_URL=https://pub.flutter-io.cn #国内用户需要设置
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn #国内用户需要设置
+export PATH=/Users/junxi/工作/usrsdk/Flutter/flutter/bin:$PATH
+
+#AndroidStudio adb
+export PATH=${PATH}:/Users/junxi/Library/Android/sdk/platform-tools
+
+
+#java11
+#If you need to have openjdk-11 first in your PATH
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+#For compilers to find openjdk-11 you may need to set
+export CPPFLAGS="-I/usr/local/opt/openjdk@11/include"
+
+1.领电脑、找工位、领取账号SVN、git、蓝湖、禅道，项目权限
+2.配置开发环境  拉取代码
+3.oc、swift、Java、kotlin
+
+安装浏览器
+安装homebrew
+安装Java  环境变量
+安装git/svn
+安装AndroidStudio、xcode、vscode
+安装 ruby  cocoapods   adb
+安装flutter、dart
+
+open ~/.bash_profile
+1.创建 .bash_profile
+ （1） 启动终端
+ （2） 进入当前用户的home目录(默认就是)： 
+        cd ~   或 cd /Users/YourMacUserName  
+ （3）输入touch .bash_profile
+2、查看 、编辑 .bash_profile 文件
+ （1）终端输入 open -e .bash_profile 
+   （如果只是查看，直接使用open .bash_profile）
+ （2）编辑
+ （3）关闭即可保存修改
+3、更新刚配置的环境变量
+  输入source .bash_profile
+
+2.安装homebrew 安装方法： 在Mac中打开Termal: 输入命令：
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+
+
+
+
+
+
+
+
